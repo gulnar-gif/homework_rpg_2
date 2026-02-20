@@ -94,7 +94,7 @@ public class Main {
         System.out.println("============================================\n");
 
 
-        
+
         // 1) shadowFactory дайын
         // 2) builder арқылы shadow boss build
         // 3) registry.registerTemplate(...)
