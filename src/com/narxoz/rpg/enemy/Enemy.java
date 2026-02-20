@@ -6,23 +6,27 @@ import com.narxoz.rpg.loot.LootTable;
 import java.util.List;
 
 public interface Enemy {
-
     String getName();
-
     int getHealth();
-
     int getDamage();
-
     int getDefense();
-
     int getSpeed();
 
-    List<Ability> getAbilities();
+    String getElement();
+    String getAIBehavior();
 
+    List<Ability> getAbilities();
     LootTable getLootTable();
 
     void displayInfo();
 
-    Enemy clone();
+    Enemy clone(); // DEEP COPY
+
+    void multiplyStats(double multiplier);
+    void setElement(String element);
+    void setAIBehavior(String ai);
+    void setAbilities(List<Ability> abilities);
+    void addAbility(Ability ability);
+    void setLootTable(LootTable lootTable);
 }
 

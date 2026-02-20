@@ -1,6 +1,7 @@
 package com.narxoz.rpg.combat;
 
 public abstract class BaseAbility implements Ability {
+
     private final String name;
     private final int power;
     private final AbilityType type;
@@ -13,10 +14,28 @@ public abstract class BaseAbility implements Ability {
         this.description = description;
     }
 
-    @Override public String getName() { return name; }
-    @Override public int getPower() { return power; }
-    @Override public AbilityType getType() { return type; }
-    @Override public String getDescription() { return description; }
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public int getPower() {
+        return power;
+    }
+
+    @Override
+    public AbilityType getType() {
+        return type;
+    }
+
+    @Override
+    public String getDescription() {
+        return description;
+    }
+
+    @Override
+    public abstract Ability clone();
 
     @Override
     public String toString() {
