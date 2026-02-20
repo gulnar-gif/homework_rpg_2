@@ -4,7 +4,6 @@ import com.narxoz.rpg.combat.Ability;
 import com.narxoz.rpg.enemy.Enemy;
 import com.narxoz.rpg.enemy.Goblin;
 import com.narxoz.rpg.factory.EnemyComponentFactory;
-import com.narxoz.rpg.factory.FireComponentFactory;
 import com.narxoz.rpg.factory.IceComponentFactory;
 import com.narxoz.rpg.factory.ShadowComponentFactory;
 import com.narxoz.rpg.loot.LootTable;
