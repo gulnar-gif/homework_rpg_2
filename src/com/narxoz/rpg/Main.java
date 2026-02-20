@@ -12,7 +12,7 @@ import com.narxoz.rpg.prototype.EnemyRegistry;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== RPG Enemy System - Creational Patterns Capstone ===\n");
+        System.out.println(" RPG Enemy System - Creational Patterns Capstone \n");
 
         System.out.println("PART 1: ABSTRACT FACTORY - Themed Components");
 
